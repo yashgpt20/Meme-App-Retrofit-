@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/meme"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+    android:layout_height="match_parent"
+    tools:context=".Meme">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meme App"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fun meets Laughter!"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="105dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/memeimage"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_marginTop="220dp"/>
+
+    <TextView
+        android:id="@+id/memeAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/memetitle"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="610dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Meme"
+        android:layout_marginTop="650dp"
+        android:textSize="20sp"
+        android:id="@+id/memebutton"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+
+
+</RelativeLayout>
